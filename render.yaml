@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mercury-parser
+    env: node
+    buildCommand: yarn install
+    startCommand: yarn start
+    plan: free
